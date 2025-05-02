@@ -1,56 +1,68 @@
-<h1 align="center">Hi 👋, I'm JeremyLih</h1>
-<h3 align="center">Aspiring AI + Crypto Developer | High School ML Explorer 🧠</h3>
-
----
+<h1 align="center" style="color:#00ffff; font-family:'Orbitron', sans-serif;">👋 Hi, I'm Jeremy Lih</h1>
+<h3 align="center" style="color:#39FF14; font-weight:bold;">🌌 AI Explorer | Deep Learning Enthusiast | Math + Physics Lover 🌌</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=09F7F7&width=435&lines=I+build+Crypto+AI+projects+%F0%9F%A4%96;Learning+ML+since+Grade+10+%F0%9F%A7%A0;Loves+math%2C+physics%2C+and+cats+%F0%9F%90%B1" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=Building+Smart+Neural+Networks+🧠;Exploring+AI+since+Grade+10+🔍;Passionate+about+Math%2C+Physics+%26+Innovation+🚀;Cat+Lover+%26+Tech+Dreamer+🐱" />
 </p>
 
 ---
 
-### 🔭 I’m currently working on:
-- 🤖 **CASI** – A Crypto + Artificial Super Intelligence project  
-- 🧠 Building neural networks with **PyTorch** on Mac (MPS accelerated)  
-- 🧪 Exploring Liquid Neural Networks and Deep Reinforcement Learning  
-- 🧩 Quizlet-style study tools with **JavaScript & JSON**
+## 🚀 What I'm Exploring
+
+> **🧠 Neural Networks | 🌐 AI Infrastructure | 🧮 Mathematical Modeling | 🌀 Liquid Neural Nets | 🕹️ Reinforcement Learning**
+
+- ⚙️ Building custom **deep neural networks** with PyTorch (MPS accelerated)
+- 🌊 Researching **Liquid Neural Networks** and neuromorphic computing
+- 📐 Using **physics-based models** and math in intelligent systems
+- 🕹️ Implementing **deep RL agents** in simulation
+- 🧵 Exploring **scalable inference and AI infra**
 
 ---
 
-### 🚀 Tech Stack
-
-![Python](https://img.shields.io/badge/-Python-333?style=flat-square&logo=python)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-
----
-
-### 📈 GitHub Stats
+## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JeremyLih&show_icons=true&theme=radical" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JeremyLih&layout=compact&theme=radical" height="160" />
+  <img src="https://img.shields.io/badge/Python-00FFCC?style=for-the-badge&logo=python&logoColor=black" />
+  <img src="https://img.shields.io/badge/PyTorch-FF4C4C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FFA500?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-FD8800?style=for-the-badge&logo=jupyter&logoColor=black" />
+  <img src="https://img.shields.io/badge/NumPy-1E4A77?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-130654?style=for-the-badge&logo=pandas&logoColor=white" />
 </p>
 
 ---
 
-### 📫 How to reach me
+## 📊 GitHub Stats
 
-<!-- 可以替换成你愿意公开的联系方式 -->
-- Email: *[Private for now]*  
-- Portfolio: *Coming soon...*  
-- Discord: *Feel free to DM me if you're building AI things!*
-
----
-
-### ✨ Fun fact
-
-I taught myself machine learning before I learned to drive. 😎  
-And yes... I'm probably training a model while you read this 🧠
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=JeremyLih&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JeremyLih&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
 
 ---
 
-> 💬 “Code like a scientist, learn like a philosopher, and think like a hacker.”  
+## 📬 Let's Connect
+
+- 📧 Email: [jeremyli8776999@gmail.com](mailto:jeremyli8776999@gmail.com)
+- 💬 Discord: **JeremyLih#9999** *(always open to AI & tech collabs!)*
+- 🌐 Portfolio: **Coming Soon...**
+
+---
+
+## ✨ Fun Facts
+
+- 🧠 I built my first neural network before learning how to drive
+- ⛷️ I write better code *after* skiing (true story!)
+- 😼 My cat watches me debug code — not impressed
+
+---
+
+## 💡 Quote I Live By
+
+<p align="center">
+  <img src="https://img.shields.io/badge/The%20Future%20is%20AI-00FFCC?style=for-the-badge&logo=artstation&logoColor=black" />
+</p>
+
+<p align="center">
+  <i>"The development of full artificial intelligence could spell the end of the human race… It would take off on its own, and re-design itself at an ever-increasing rate. Humans, who are limited by slow biological evolution, couldn’t compete, and would be superseded." — <b>Stephen Hawking</b></i>
+</p>
