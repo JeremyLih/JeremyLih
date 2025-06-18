@@ -64,5 +64,5 @@
 </p>
 
 <p align="center">
-  <i>"The development of full artificial intelligence could spell the end of the human race… It would take off on its own, and re-design itself at an ever-increasing rate. Humans, who are limited by slow biological evolution, couldn’t compete, and would be superseded." — <b>Stephen Hawking</b></i>
+  <i>“Stay Hungry. Stay Foolish.”</i>
 </p>
