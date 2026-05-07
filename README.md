@@ -33,7 +33,10 @@ My primary focus is not just training models, but understanding **how signals ar
 <td width="40%" valign="top" style="border: none; border-left: 2px solid #1E3A8A; padding-left: 20px;">
 
 ### ✦ TELEMETRY
-<img src="https://github-readme-stats.vercel.app/api?username=JeremyLih&theme=tokyonight&hide_border=true&bg_color=010409&title_color=06B6D4&icon_color=06B6D4&text_color=c9d1d9&hide=stars,issues" alt="GitHub Stats" width="100%" />
+<img 
+  src="https://github-readme-stats-sigma-five.vercel.app/api?username=JeremyLi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=010409"
+  width="100%"
+/>
 
 </td>
 </tr>
