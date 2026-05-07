@@ -1,12 +1,19 @@
 # Jeremy Li
 
-I build AI/ML systems, quantitative research tools, and web infrastructure that connect theory, data, and deployable software.
+**AI/ML systems, quantitative research tools, and web infrastructure.**
 
-My current work sits between machine learning, math, physics, trading systems, and full-stack infrastructure. I care about whether an idea can survive contact with real data, real constraints, and real users.
+I build systems that connect theory, data, and deployable software. My current work sits between machine learning, math, physics, trading systems, and full-stack infrastructure.
 
-- Email: <jeremyli.ava@gmail.com>
-- GitHub: [JeremyLih](https://github.com/JeremyLih)
-- Website: [andromedax.org](https://andromedax.org)
+| Contact | Link |
+| :--- | :--- |
+| Email | [jeremyli.ava@gmail.com](mailto:jeremyli.ava@gmail.com) |
+| GitHub | [JeremyLih](https://github.com/JeremyLih) |
+| Website | [andromedax.org](https://andromedax.org) |
+
+> [!NOTE]
+> I build systems that make reasoning, uncertainty, and failure visible.
+
+---
 
 ## Working Loop
 
@@ -16,17 +23,33 @@ question -> model -> test -> failure -> revision
 
 I try to build in small, inspectable loops. The goal is not to make a system look impressive at the beginning, but to expose where it fails, understand why, and improve the parts that survive testing.
 
-## Current Direction
+---
 
-I am focused on building systems that make reasoning, uncertainty, and failure visible.
+## Current Direction
 
 Most of my work falls into three connected areas:
 
-- AI / ML systems: models, evaluation, calibration, and generalization
-- Quantitative research: market data, features, signals, costs, regimes, and PnL
-- Web infrastructure: interfaces, APIs, edge deployment, and project shipping
+| Area | What I am trying to make inspectable |
+| :--- | :--- |
+| AI / ML systems | Models, evaluation, calibration, and generalization |
+| Quantitative research | Market data, features, signals, costs, regimes, and PnL |
+| Web infrastructure | Interfaces, APIs, edge deployment, and project shipping |
+
+---
 
 ## Active Systems
+
+| System | Role | Status |
+| :--- | :--- | :--- |
+| CASI | AI-driven quantitative research system testing weak ML signals under realistic constraints | Active research system |
+| AndromedaX | Web and infrastructure surface for shipping technical projects with clean interfaces and APIs | Active platform |
+| AI Engineering Workflow | Commander / Implementor / Inspector workflow for AI-assisted software work | Experimental workflow |
+
+| System | Pipeline | Core Question |
+| :--- | :--- | :--- |
+| CASI | `market data -> features -> signal -> decision -> pnl` | Can weak ML signals survive realistic trading constraints? |
+| AndromedaX | `interface -> api -> edge runtime -> deploy` | Can technical projects be shipped with clean interfaces and deployable structure? |
+| AI Engineering Workflow | `task -> command -> implementation -> audit -> memory` | Can AI agents help build software without losing state, scope, or verification? |
 
 ### CASI
 
@@ -38,12 +61,12 @@ market data -> features -> signal -> decision -> pnl
 
 CASI is not just a model. It is a full research pipeline for asking whether a trading signal remains useful after realistic constraints are added.
 
-Core questions:
-
-- Can a weak signal remain positive after fees and slippage?
-- Does the signal survive different market regimes?
-- Are the backtest, paper-trading logic, and execution assumptions consistent?
-- Can the system be replayed, inspected, and debugged later?
+| Focus | Questions |
+| :--- | :--- |
+| Signal validity | Can a weak signal remain positive after fees and slippage? |
+| Regimes | Does the signal survive different market regimes? |
+| Execution assumptions | Are the backtest, paper-trading logic, and execution assumptions consistent? |
+| Reproducibility | Can the system be replayed, inspected, and debugged later? |
 
 Current focus:
 
@@ -64,32 +87,41 @@ interface -> api -> edge runtime -> deploy
 
 Website: [andromedax.org](https://andromedax.org)
 
-What it is for:
+| Use | Current focus |
+| :--- | :--- |
+| Build small public-facing technical projects | Project landing pages |
+| Test UI ideas for AI tools and data systems | AI-assisted tools |
+| Connect frontend interfaces with backend APIs | Cleaner routing, authentication, and API structure |
+| Deploy through modern web infrastructure | Cloudflare-based deployment |
+| Make experimental systems easier to access | Clearer project surfaces and documentation |
 
-- Building small public-facing technical projects
-- Testing UI ideas for AI tools and data systems
-- Connecting frontend interfaces with backend APIs
-- Deploying projects through modern web infrastructure
+### AI Engineering Workflow
 
-Current focus:
+AI Engineering Workflow is a Commander / Implementor / Inspector workflow for using AI agents to build software while preserving scope, state, and verification.
 
-- Project landing pages
-- AI-assisted tools
-- Cloudflare-based deployment
-- Cleaner routing, authentication, and API structure
-- Making experimental systems easier to access and understand
+```txt
+task -> command -> implementation -> audit -> memory
+```
+
+| Use | Current focus |
+| :--- | :--- |
+| Keep AI-assisted engineering scoped and inspectable | Clear task boundaries |
+| Separate planning, implementation, and review | Reviewable implementation steps |
+| Preserve project state across longer build sessions | Failure notes and memory capture |
+| Make verification part of the workflow | Better handoff between ideas, code, tests, and revision |
+
+---
 
 ## Research / Build Philosophy
 
 I am most interested in systems where correctness is not obvious from the first result.
 
-A model can look good because of leakage.
-
-A backtest can look good because costs are ignored.
-
-A web app can look good while hiding broken state.
-
-A theory can look elegant while making weak contact with reality.
+| Surface result | Failure mode |
+| :--- | :--- |
+| A model can look good | Leakage |
+| A backtest can look good | Costs are ignored |
+| A web app can look good | Broken state is hidden |
+| A theory can look elegant | Weak contact with reality |
 
 So I try to build around a few principles:
 
@@ -99,6 +131,8 @@ So I try to build around a few principles:
 - Readable code before clever code
 - Reproducibility before speed
 - Interfaces that show state, uncertainty, and trade-offs
+
+---
 
 ## Thinking Model
 
@@ -110,29 +144,26 @@ So I try to build around a few principles:
 | Infrastructure | Can this be run, inspected, and changed later? | Prototype code turning into permanent debt |
 | UI | Does the interface reveal the system state clearly? | Visual polish hiding important uncertainty |
 
+---
+
 ## Tools I Use
 
-### Research / Modeling
+| Purpose | Tools |
+| :--- | :--- |
+| Research / Modeling | Python, PyTorch, NumPy, Pandas, scikit-learn |
+| Experimentation | Jupyter, pytest, Parquet, matplotlib |
+| Systems / Infrastructure | Git, GitHub, bash, TypeScript |
+| Deployment | Cloudflare, Workers, Pages, KV / D1 |
 
-```txt
-Python      PyTorch      NumPy      Pandas      scikit-learn
-Jupyter     pytest       Parquet    matplotlib
-```
-
-### Systems / Infrastructure
-
-```txt
-Git         GitHub       bash       TypeScript
-Cloudflare  Workers      Pages      KV / D1
-```
-
-### Workflow
+Workflow:
 
 ```txt
 experiments -> logs -> validation -> failure notes -> revision
 ```
 
 I prefer tools that make a system easier to inspect, reproduce, and repair.
+
+---
 
 ## Current Focus
 
@@ -143,16 +174,20 @@ Right now I am working on:
 - Improving my ability to connect math, ML, and software into usable systems
 - Building projects that can become long-term research and portfolio assets
 
+---
+
 ## What I Am Learning
 
-I am actively learning and building around:
+| Area | Direction |
+| :--- | :--- |
+| Machine learning and deep learning | Models, evaluation, and generalization |
+| Quantitative systems | Signals, regimes, risk, and PnL |
+| Probability, statistics, and optimization | Better reasoning under uncertainty |
+| Physics and mathematical modeling | Mechanisms, abstraction, and explanation |
+| Full-stack web infrastructure | Interfaces, APIs, deployment, and operations |
+| AI-assisted engineering workflows | Scope control, verification, and memory |
 
-- Machine learning and deep learning
-- Quantitative systems
-- Probability, statistics, and optimization
-- Physics and mathematical modeling
-- Full-stack web infrastructure
-- AI-assisted engineering workflows
+---
 
 ## What I Care About
 
@@ -166,6 +201,8 @@ For me, a good technical project should make it possible to ask:
 - Can the result be reproduced?
 - Can another person understand and improve it later?
 
+---
+
 ## Selected Project Directions
 
 | Project | Area | Core Question |
@@ -175,8 +212,12 @@ For me, a good technical project should make it possible to ask:
 | AI Engineering Workflow | Developer Systems | Can AI agents help build software without losing state, scope, or verification? |
 | Math / Physics Notes | Theory / Learning | Can abstract mechanisms be turned into usable models and explanations? |
 
+---
+
 ## Contact
 
-- Email: <jeremyli.ava@gmail.com>
-- GitHub: [JeremyLih](https://github.com/JeremyLih)
-- Website: [andromedax.org](https://andromedax.org)
+| Contact | Link |
+| :--- | :--- |
+| Email | [jeremyli.ava@gmail.com](mailto:jeremyli.ava@gmail.com) |
+| GitHub | [JeremyLih](https://github.com/JeremyLih) |
+| Website | [andromedax.org](https://andromedax.org) |
