@@ -1,15 +1,31 @@
-# Jeremy Li
+<h1 align="center">Jeremy Li</h1>
 
-**AI/ML systems, quantitative research tools, and web infrastructure.**
+<p align="center">
+  <strong>AI/ML systems, quantitative research tools, and web infrastructure.</strong>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=18&amp;duration=2800&amp;pause=900&amp;color=0891B2&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=question+-%3E+model+-%3E+test+-%3E+failure+-%3E+revision;AI%2FML+systems+%7C+quantitative+research+%7C+web+infrastructure;build+small+loops+that+expose+state%2C+uncertainty%2C+and+failure" alt="Typing animation: question to model to test to failure to revision" />
+</p>
+
+<p align="center">
+  <a href="mailto:jeremyli.ava@gmail.com">Email</a>
+  ·
+  <a href="https://github.com/JeremyLih">GitHub</a>
+  ·
+  <a href="https://andromedax.org">Website</a>
+</p>
 
 I build systems that connect theory, data, and deployable software.
 
-![AI/ML](https://img.shields.io/badge/AI%2FML-systems-0f172a?style=flat-square&labelColor=111827&color=0891b2)
-![Quant Research](https://img.shields.io/badge/quant-research-0f172a?style=flat-square&labelColor=111827&color=0e7490)
-![Systems](https://img.shields.io/badge/systems-inspectable-0f172a?style=flat-square&labelColor=111827&color=0369a1)
-![Python](https://img.shields.io/badge/python-modeling-0f172a?style=flat-square&logo=python&logoColor=white&labelColor=111827&color=1d4ed8)
-![Cloudflare](https://img.shields.io/badge/cloudflare-edge-0f172a?style=flat-square&logo=cloudflare&logoColor=white&labelColor=111827&color=ea580c)
-![TypeScript](https://img.shields.io/badge/typescript-web-0f172a?style=flat-square&logo=typescript&logoColor=white&labelColor=111827&color=2563eb)
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%2FML-systems-0f172a?style=flat-square&amp;labelColor=111827&amp;color=0891b2" alt="AI/ML systems" />
+  <img src="https://img.shields.io/badge/quant-research-0f172a?style=flat-square&amp;labelColor=111827&amp;color=0e7490" alt="Quant research" />
+  <img src="https://img.shields.io/badge/systems-inspectable-0f172a?style=flat-square&amp;labelColor=111827&amp;color=0369a1" alt="Inspectable systems" />
+  <img src="https://img.shields.io/badge/python-modeling-0f172a?style=flat-square&amp;logo=python&amp;logoColor=white&amp;labelColor=111827&amp;color=1d4ed8" alt="Python modeling" />
+  <img src="https://img.shields.io/badge/cloudflare-edge-0f172a?style=flat-square&amp;logo=cloudflare&amp;logoColor=white&amp;labelColor=111827&amp;color=ea580c" alt="Cloudflare edge" />
+  <img src="https://img.shields.io/badge/typescript-web-0f172a?style=flat-square&amp;logo=typescript&amp;logoColor=white&amp;labelColor=111827&amp;color=2563eb" alt="TypeScript web" />
+</p>
 
 | Contact | Link |
 | :--- | :--- |
@@ -27,6 +43,15 @@ I build systems that connect theory, data, and deployable software.
 
 > [!NOTE]
 > I build systems that make reasoning, uncertainty, and failure visible.
+
+```txt
+lab console
+-----------
+mode      : research-builder
+loop      : question -> model -> test -> failure -> revision
+systems   : CASI | AndromedaX | AI Engineering Workflow
+constraint: inspectability before scale
+```
 
 ---
 
@@ -165,6 +190,20 @@ AI Engineering Workflow is a Commander / Implementor / Inspector workflow for us
 | Separate planning, implementation, and review | Reviewable implementation steps |
 | Preserve project state across longer build sessions | Failure notes and memory capture |
 | Make verification part of the workflow | Better handoff between ideas, code, tests, and revision |
+
+```mermaid
+sequenceDiagram
+    participant C as Commander
+    participant I as Implementor
+    participant R as Inspector
+    participant M as Memory
+
+    C->>I: define task, constraints, acceptance checks
+    I->>R: produce implementation and evidence
+    R->>I: audit scope, behavior, and regressions
+    R->>M: capture decisions and failure notes
+    M->>C: preserve context for the next loop
+```
 
 </details>
 
