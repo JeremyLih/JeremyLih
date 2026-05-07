@@ -67,11 +67,29 @@ My current work sits between machine learning, math, physics, trading systems, a
 
 ## Active Systems
 
-| System | What it is | Pipeline | Status |
+| System | What it is | Pipeline | Status[^status] |
 | :--- | :--- | :--- | :--- |
 | **CASI** | AI-driven quantitative research system testing weak ML signals under realistic constraints | `market data -> features -> signal -> decision -> pnl` | Active research system |
 | **AndromedaX** | Web and infrastructure surface for shipping technical projects with clean interfaces and APIs | `interface -> api -> edge runtime -> deploy` | Active platform |
 | **AI Engineering Workflow** | Commander / Implementor / Inspector workflow for AI-assisted software work | `task -> command -> implementation -> audit -> memory` | Experimental workflow |
+
+```mermaid
+flowchart TB
+    Theory["math / physics / mechanism"] --> Experiment["small experiments"]
+    Data["market data"] --> CASI["CASI"]
+    Experiment --> CASI
+    CASI --> Failure["failure analysis"]
+    Failure --> Revision["revision"]
+
+    UI["interfaces"] --> AndromedaX["AndromedaX"]
+    APIs["APIs / edge runtime"] --> AndromedaX
+    AndromedaX --> Access["public technical surfaces"]
+
+    Task["task"] --> Workflow["AI Engineering Workflow"]
+    Workflow --> Audit["audit / verification"]
+    Audit --> Memory["memory / notes"]
+    Memory --> Revision
+```
 
 ### CASI
 
@@ -162,6 +180,12 @@ I am most interested in systems where correctness is not obvious from the first 
 | A backtest can look good | Costs are ignored |
 | A web app can look good | Broken state is hidden |
 | A theory can look elegant | Weak contact with reality |
+
+One way I think about these systems:
+
+```math
+\text{usable edge} \approx \text{signal} - \text{cost} - \text{uncertainty} - \text{implementation error}
+```
 
 So I try to build around a few principles:
 
@@ -259,3 +283,5 @@ For me, a good technical project should make it possible to ask:
 | Email | [jeremyli.ava@gmail.com](mailto:jeremyli.ava@gmail.com) |
 | GitHub | [JeremyLih](https://github.com/JeremyLih) |
 | Website | [andromedax.org](https://andromedax.org) |
+
+[^status]: Status labels describe current direction and working mode, not finished-product claims.
