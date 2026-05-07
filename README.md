@@ -2,13 +2,28 @@
 
 **AI/ML systems, quantitative research tools, and web infrastructure.**
 
-I build systems that connect theory, data, and deployable software. My current work sits between machine learning, math, physics, trading systems, and full-stack infrastructure.
+I build systems that connect theory, data, and deployable software.
+
+![AI/ML](https://img.shields.io/badge/AI%2FML-systems-0f172a?style=flat-square&labelColor=111827&color=0891b2)
+![Quant Research](https://img.shields.io/badge/quant-research-0f172a?style=flat-square&labelColor=111827&color=0e7490)
+![Systems](https://img.shields.io/badge/systems-inspectable-0f172a?style=flat-square&labelColor=111827&color=0369a1)
+![Python](https://img.shields.io/badge/python-modeling-0f172a?style=flat-square&logo=python&logoColor=white&labelColor=111827&color=1d4ed8)
+![Cloudflare](https://img.shields.io/badge/cloudflare-edge-0f172a?style=flat-square&logo=cloudflare&logoColor=white&labelColor=111827&color=ea580c)
+![TypeScript](https://img.shields.io/badge/typescript-web-0f172a?style=flat-square&logo=typescript&logoColor=white&labelColor=111827&color=2563eb)
 
 | Contact | Link |
 | :--- | :--- |
 | Email | [jeremyli.ava@gmail.com](mailto:jeremyli.ava@gmail.com) |
 | GitHub | [JeremyLih](https://github.com/JeremyLih) |
 | Website | [andromedax.org](https://andromedax.org) |
+
+| Profile Map |  |
+| :--- | :--- |
+| Systems | [Active Systems](#active-systems) |
+| Loop | [Working Loop](#working-loop) |
+| Philosophy | [Research / Build Philosophy](#research--build-philosophy) |
+| Stack | [Tools I Use](#tools-i-use) |
+| Focus | [Current Focus](#current-focus) |
 
 > [!NOTE]
 > I build systems that make reasoning, uncertainty, and failure visible.
@@ -23,41 +38,52 @@ question -> model -> test -> failure -> revision
 
 I try to build in small, inspectable loops. The goal is not to make a system look impressive at the beginning, but to expose where it fails, understand why, and improve the parts that survive testing.
 
+```mermaid
+flowchart LR
+    Q["question"] --> M["model"]
+    M --> T["test"]
+    T --> F["failure"]
+    F --> R["revision"]
+    R --> Q
+
+    D["data"] --> T
+    C["constraints"] --> F
+    O["observable system"] --> R
+```
+
 ---
 
 ## Current Direction
 
-Most of my work falls into three connected areas:
+My current work sits between machine learning, math, physics, trading systems, and full-stack infrastructure.
 
 | Area | What I am trying to make inspectable |
 | :--- | :--- |
-| AI / ML systems | Models, evaluation, calibration, and generalization |
-| Quantitative research | Market data, features, signals, costs, regimes, and PnL |
-| Web infrastructure | Interfaces, APIs, edge deployment, and project shipping |
+| **AI / ML systems** | Models, evaluation, calibration, and generalization |
+| **Quantitative research** | Market data, features, signals, costs, regimes, and PnL |
+| **Web infrastructure** | Interfaces, APIs, edge deployment, and project shipping |
 
 ---
 
 ## Active Systems
 
-| System | Role | Status |
-| :--- | :--- | :--- |
-| CASI | AI-driven quantitative research system testing weak ML signals under realistic constraints | Active research system |
-| AndromedaX | Web and infrastructure surface for shipping technical projects with clean interfaces and APIs | Active platform |
-| AI Engineering Workflow | Commander / Implementor / Inspector workflow for AI-assisted software work | Experimental workflow |
-
-| System | Pipeline | Core Question |
-| :--- | :--- | :--- |
-| CASI | `market data -> features -> signal -> decision -> pnl` | Can weak ML signals survive realistic trading constraints? |
-| AndromedaX | `interface -> api -> edge runtime -> deploy` | Can technical projects be shipped with clean interfaces and deployable structure? |
-| AI Engineering Workflow | `task -> command -> implementation -> audit -> memory` | Can AI agents help build software without losing state, scope, or verification? |
+| System | What it is | Pipeline | Status |
+| :--- | :--- | :--- | :--- |
+| **CASI** | AI-driven quantitative research system testing weak ML signals under realistic constraints | `market data -> features -> signal -> decision -> pnl` | Active research system |
+| **AndromedaX** | Web and infrastructure surface for shipping technical projects with clean interfaces and APIs | `interface -> api -> edge runtime -> deploy` | Active platform |
+| **AI Engineering Workflow** | Commander / Implementor / Inspector workflow for AI-assisted software work | `task -> command -> implementation -> audit -> memory` | Experimental workflow |
 
 ### CASI
-
-CASI is an AI-driven quantitative research system focused on testing whether weak machine-learning signals can survive transaction costs, regime shifts, and execution constraints.
 
 ```txt
 market data -> features -> signal -> decision -> pnl
 ```
+
+CASI is an AI-driven quantitative research system focused on testing whether weak machine-learning signals can survive transaction costs, regime shifts, and execution constraints.
+
+<details>
+
+<summary><strong>CASI research notes</strong></summary>
 
 CASI is not just a model. It is a full research pipeline for asking whether a trading signal remains useful after realistic constraints are added.
 
@@ -77,15 +103,21 @@ Current focus:
 - Paper-trading and PnL reconstruction
 - Failure analysis before scaling complexity
 
-### AndromedaX
+</details>
 
-AndromedaX is my web and infrastructure direction for shipping technical projects with cleaner interfaces, APIs, and deployment surfaces.
+### AndromedaX
 
 ```txt
 interface -> api -> edge runtime -> deploy
 ```
 
+AndromedaX is my web and infrastructure direction for shipping technical projects with cleaner interfaces, APIs, and deployment surfaces.
+
 Website: [andromedax.org](https://andromedax.org)
+
+<details>
+
+<summary><strong>AndromedaX build notes</strong></summary>
 
 | Use | Current focus |
 | :--- | :--- |
@@ -95,13 +127,19 @@ Website: [andromedax.org](https://andromedax.org)
 | Deploy through modern web infrastructure | Cloudflare-based deployment |
 | Make experimental systems easier to access | Clearer project surfaces and documentation |
 
-### AI Engineering Workflow
+</details>
 
-AI Engineering Workflow is a Commander / Implementor / Inspector workflow for using AI agents to build software while preserving scope, state, and verification.
+### AI Engineering Workflow
 
 ```txt
 task -> command -> implementation -> audit -> memory
 ```
+
+AI Engineering Workflow is a Commander / Implementor / Inspector workflow for using AI agents to build software while preserving scope, state, and verification.
+
+<details>
+
+<summary><strong>AI engineering workflow notes</strong></summary>
 
 | Use | Current focus |
 | :--- | :--- |
@@ -109,6 +147,8 @@ task -> command -> implementation -> audit -> memory
 | Separate planning, implementation, and review | Reviewable implementation steps |
 | Preserve project state across longer build sessions | Failure notes and memory capture |
 | Make verification part of the workflow | Better handoff between ideas, code, tests, and revision |
+
+</details>
 
 ---
 
@@ -138,11 +178,11 @@ So I try to build around a few principles:
 
 | Layer | Question I keep asking | What can go wrong |
 | :--- | :--- | :--- |
-| Math / Physics | What mechanism explains the behavior? | Nice theory, weak contact with reality |
-| ML / DL | Does the model generalize outside the setup? | Leakage, overfitting, noisy metrics |
-| Quant Systems | Does the signal survive cost and regime shifts? | Paper alpha that disappears in execution |
-| Infrastructure | Can this be run, inspected, and changed later? | Prototype code turning into permanent debt |
-| UI | Does the interface reveal the system state clearly? | Visual polish hiding important uncertainty |
+| **Math / Physics** | What mechanism explains the behavior? | Nice theory, weak contact with reality |
+| **ML / DL** | Does the model generalize outside the setup? | Leakage, overfitting, noisy metrics |
+| **Quant Systems** | Does the signal survive cost and regime shifts? | Paper alpha that disappears in execution |
+| **Infrastructure** | Can this be run, inspected, and changed later? | Prototype code turning into permanent debt |
+| **UI** | Does the interface reveal the system state clearly? | Visual polish hiding important uncertainty |
 
 ---
 
@@ -150,10 +190,10 @@ So I try to build around a few principles:
 
 | Purpose | Tools |
 | :--- | :--- |
-| Research / Modeling | Python, PyTorch, NumPy, Pandas, scikit-learn |
-| Experimentation | Jupyter, pytest, Parquet, matplotlib |
-| Systems / Infrastructure | Git, GitHub, bash, TypeScript |
-| Deployment | Cloudflare, Workers, Pages, KV / D1 |
+| **Research / Modeling** | Python, PyTorch, NumPy, Pandas, scikit-learn |
+| **Experimentation** | Jupyter, pytest, Parquet, matplotlib |
+| **Systems / Infrastructure** | Git, GitHub, bash, TypeScript |
+| **Deployment** | Cloudflare, Workers, Pages, KV / D1 |
 
 Workflow:
 
@@ -167,8 +207,6 @@ I prefer tools that make a system easier to inspect, reproduce, and repair.
 
 ## Current Focus
 
-Right now I am working on:
-
 - Making CASI more deterministic, replayable, and honest about failure
 - Turning AndromedaX into a cleaner home for technical projects
 - Improving my ability to connect math, ML, and software into usable systems
@@ -180,12 +218,12 @@ Right now I am working on:
 
 | Area | Direction |
 | :--- | :--- |
-| Machine learning and deep learning | Models, evaluation, and generalization |
-| Quantitative systems | Signals, regimes, risk, and PnL |
-| Probability, statistics, and optimization | Better reasoning under uncertainty |
-| Physics and mathematical modeling | Mechanisms, abstraction, and explanation |
-| Full-stack web infrastructure | Interfaces, APIs, deployment, and operations |
-| AI-assisted engineering workflows | Scope control, verification, and memory |
+| **Machine learning and deep learning** | Models, evaluation, and generalization |
+| **Quantitative systems** | Signals, regimes, risk, and PnL |
+| **Probability, statistics, and optimization** | Better reasoning under uncertainty |
+| **Physics and mathematical modeling** | Mechanisms, abstraction, and explanation |
+| **Full-stack web infrastructure** | Interfaces, APIs, deployment, and operations |
+| **AI-assisted engineering workflows** | Scope control, verification, and memory |
 
 ---
 
@@ -207,10 +245,10 @@ For me, a good technical project should make it possible to ask:
 
 | Project | Area | Core Question |
 | :--- | :--- | :--- |
-| CASI | AI / Quant Research | Can weak ML signals survive realistic trading constraints? |
-| AndromedaX | Web / Infrastructure | Can technical projects be shipped with clean interfaces and deployable structure? |
-| AI Engineering Workflow | Developer Systems | Can AI agents help build software without losing state, scope, or verification? |
-| Math / Physics Notes | Theory / Learning | Can abstract mechanisms be turned into usable models and explanations? |
+| **CASI** | AI / Quant Research | Can weak ML signals survive realistic trading constraints? |
+| **AndromedaX** | Web / Infrastructure | Can technical projects be shipped with clean interfaces and deployable structure? |
+| **AI Engineering Workflow** | Developer Systems | Can AI agents help build software without losing state, scope, or verification? |
+| **Math / Physics Notes** | Theory / Learning | Can abstract mechanisms be turned into usable models and explanations? |
 
 ---
 
