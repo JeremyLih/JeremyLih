@@ -10,6 +10,7 @@
   <a href="https://andromedax.org"><img src="https://img.shields.io/badge/Website-andromedax.org-2563eb?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="mailto:jeremyli.ava@gmail.com"><img src="https://img.shields.io/badge/Email-0e7490?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/JeremyLih"><img src="https://img.shields.io/badge/GitHub-0f172a?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.kaggle.com/jeremylih"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
 </p>
 
 </div>
@@ -23,7 +24,7 @@ A student drawn to computer science, artificial intelligence, machine learning, 
 | Project | What it is |
 | :--- | :--- |
 | **[Andromedax](https://andromedax.org)** | Personal website + monorepo — a hub for my projects, writing, and experiments, with ongoing work to tidy up the architecture and bring things into one place. |
-| **Kaggle** | Machine-learning competitions — including ROGII wellbore geology (predicting TVT values from wellbore data) with GBDT models, structural priors, and CV/LB calibration, and an AI-agent security challenge building attacks against guardrail systems. |
+| **[Kaggle](https://www.kaggle.com/jeremylih)** | Machine-learning competitions — including ROGII wellbore geology (predicting TVT values from wellbore data) with GBDT models, structural priors, and CV/LB calibration, and an AI-agent security challenge building attacks against guardrail systems. |
 | **CASI** | Experimental crypto research system — BTC, long-only, with walk-forward validation, regime gating, overfitting control, and realistic fees and slippage. |
 | **QMOS** | Quality-mispricing investing research — symbolic filters, reverse-DCF thinking, margin of safety, and human-in-the-loop execution. |
 
@@ -62,6 +63,7 @@ AI research directions in representation learning, Transformers, and JEPA-style 
 <sub>
   <a href="https://andromedax.org">andromedax.org</a> &nbsp;·&nbsp;
   <a href="mailto:jeremyli.ava@gmail.com">jeremyli.ava@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/JeremyLih">github.com/JeremyLih</a>
+  <a href="https://github.com/JeremyLih">github.com/JeremyLih</a> &nbsp;·&nbsp;
+  <a href="https://www.kaggle.com/jeremylih">kaggle.com/jeremylih</a>
 </sub>
 </div>
