@@ -1,45 +1,43 @@
-<h1 align="center">Jeremy Li</h1>
+<div align="center">
 
-<p align="center">
-  <strong>AI/ML systems, quantitative research tools, and web infrastructure.</strong>
+# Jeremy Li
+
+**AI/ML systems&nbsp; ·&nbsp; quantitative research&nbsp; ·&nbsp; web infrastructure**
+
+<p>I build systems that connect theory, data, and deployable software.</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=0891B2&center=true&vCenter=true&width=760&lines=question+-%3E+model+-%3E+test+-%3E+failure+-%3E+revision;AI%2FML+systems+%7C+quantitative+research+%7C+web+infrastructure;build+small+loops+that+expose+state%2C+uncertainty%2C+and+failure" alt="question -> model -> test -> failure -> revision" />
+
+<p>
+  <a href="mailto:jeremyli.ava@gmail.com"><img src="https://img.shields.io/badge/Email-0e7490?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/JeremyLih"><img src="https://img.shields.io/badge/GitHub-0f172a?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://andromedax.org"><img src="https://img.shields.io/badge/andromedax.org-0891b2?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <img src="https://komarev.com/ghpvc/?username=JeremyLih&style=flat-square&color=0891b2&label=profile+views" alt="Profile views" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=18&amp;duration=2800&amp;pause=900&amp;color=0891B2&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=question+-%3E+model+-%3E+test+-%3E+failure+-%3E+revision;AI%2FML+systems+%7C+quantitative+research+%7C+web+infrastructure;build+small+loops+that+expose+state%2C+uncertainty%2C+and+failure" alt="Typing animation: question to model to test to failure to revision" />
+<p>
+  <img src="https://img.shields.io/badge/AI%2FML-systems-0f172a?style=flat-square&labelColor=111827&color=0891b2" alt="AI/ML systems" />
+  <img src="https://img.shields.io/badge/quant-research-0f172a?style=flat-square&labelColor=111827&color=0e7490" alt="Quant research" />
+  <img src="https://img.shields.io/badge/systems-inspectable-0f172a?style=flat-square&labelColor=111827&color=0369a1" alt="Inspectable systems" />
+  <img src="https://img.shields.io/badge/python-modeling-0f172a?style=flat-square&logo=python&logoColor=white&labelColor=111827&color=1d4ed8" alt="Python modeling" />
+  <img src="https://img.shields.io/badge/cloudflare-edge-0f172a?style=flat-square&logo=cloudflare&logoColor=white&labelColor=111827&color=ea580c" alt="Cloudflare edge" />
+  <img src="https://img.shields.io/badge/typescript-web-0f172a?style=flat-square&logo=typescript&logoColor=white&labelColor=111827&color=2563eb" alt="TypeScript web" />
 </p>
 
-<p align="center">
-  <a href="mailto:jeremyli.ava@gmail.com">Email</a>
-  ·
-  <a href="https://github.com/JeremyLih">GitHub</a>
-  ·
-  <a href="https://andromedax.org">Website</a>
-</p>
+<sub>
+  <a href="#working-loop">Working Loop</a> ·
+  <a href="#active-systems">Active Systems</a> ·
+  <a href="#how-i-think-across-layers">How I Think</a> ·
+  <a href="#research--build-philosophy">Philosophy</a> ·
+  <a href="#tech-stack">Tech Stack</a> ·
+  <a href="#current-focus--learning">Focus</a> ·
+  <a href="#github-in-numbers">Stats</a> ·
+  <a href="#contact">Contact</a>
+</sub>
 
-I build systems that connect theory, data, and deployable software.
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%2FML-systems-0f172a?style=flat-square&amp;labelColor=111827&amp;color=0891b2" alt="AI/ML systems" />
-  <img src="https://img.shields.io/badge/quant-research-0f172a?style=flat-square&amp;labelColor=111827&amp;color=0e7490" alt="Quant research" />
-  <img src="https://img.shields.io/badge/systems-inspectable-0f172a?style=flat-square&amp;labelColor=111827&amp;color=0369a1" alt="Inspectable systems" />
-  <img src="https://img.shields.io/badge/python-modeling-0f172a?style=flat-square&amp;logo=python&amp;logoColor=white&amp;labelColor=111827&amp;color=1d4ed8" alt="Python modeling" />
-  <img src="https://img.shields.io/badge/cloudflare-edge-0f172a?style=flat-square&amp;logo=cloudflare&amp;logoColor=white&amp;labelColor=111827&amp;color=ea580c" alt="Cloudflare edge" />
-  <img src="https://img.shields.io/badge/typescript-web-0f172a?style=flat-square&amp;logo=typescript&amp;logoColor=white&amp;labelColor=111827&amp;color=2563eb" alt="TypeScript web" />
-</p>
-
-| Contact | Link |
-| :--- | :--- |
-| Email | [jeremyli.ava@gmail.com](mailto:jeremyli.ava@gmail.com) |
-| GitHub | [JeremyLih](https://github.com/JeremyLih) |
-| Website | [andromedax.org](https://andromedax.org) |
-
-| Profile Map |  |
-| :--- | :--- |
-| Systems | [Active Systems](#active-systems) |
-| Loop | [Working Loop](#working-loop) |
-| Philosophy | [Research / Build Philosophy](#research--build-philosophy) |
-| Stack | [Tools I Use](#tools-i-use) |
-| Focus | [Current Focus](#current-focus) |
+---
 
 > [!NOTE]
 > I build systems that make reasoning, uncertainty, and failure visible.
@@ -78,25 +76,15 @@ flowchart LR
 
 ---
 
-## Current Direction
-
-My current work sits between machine learning, math, physics, trading systems, and full-stack infrastructure.
-
-| Area | What I am trying to make inspectable |
-| :--- | :--- |
-| **AI / ML systems** | Models, evaluation, calibration, and generalization |
-| **Quantitative research** | Market data, features, signals, costs, regimes, and PnL |
-| **Web infrastructure** | Interfaces, APIs, edge deployment, and project shipping |
-
----
-
 ## Active Systems
 
-| System | What it is | Pipeline | Status[^status] |
+<sub>Status labels describe current direction and working mode, not finished-product claims.[^status]</sub>
+
+| System | What it is | Pipeline | Status |
 | :--- | :--- | :--- | :--- |
-| **CASI** | AI-driven quantitative research system testing weak ML signals under realistic constraints | `market data -> features -> signal -> decision -> pnl` | Active research system |
-| **AndromedaX** | Web and infrastructure surface for shipping technical projects with clean interfaces and APIs | `interface -> api -> edge runtime -> deploy` | Active platform |
-| **AI Engineering Workflow** | Commander / Implementor / Inspector workflow for AI-assisted software work | `task -> command -> implementation -> audit -> memory` | Experimental workflow |
+| **CASI** | AI-driven quantitative research system testing weak ML signals under realistic constraints | `market data -> features -> signal -> decision -> pnl` | ![status](https://img.shields.io/badge/research-0891b2?style=flat-square) |
+| **AndromedaX** | Web and infrastructure surface for shipping technical projects with clean interfaces and APIs | `interface -> api -> edge runtime -> deploy` | ![status](https://img.shields.io/badge/platform-0e7490?style=flat-square) |
+| **AI Engineering Workflow** | Commander / Implementor / Inspector workflow for AI-assisted software work | `task -> command -> implementation -> audit -> memory` | ![status](https://img.shields.io/badge/experimental-475569?style=flat-square) |
 
 ```mermaid
 flowchart TB
@@ -128,6 +116,8 @@ CASI is an AI-driven quantitative research system focused on testing whether wea
 
 <summary><strong>CASI research notes</strong></summary>
 
+<br>
+
 CASI is not just a model. It is a full research pipeline for asking whether a trading signal remains useful after realistic constraints are added.
 
 | Focus | Questions |
@@ -154,13 +144,13 @@ Current focus:
 interface -> api -> edge runtime -> deploy
 ```
 
-AndromedaX is my web and infrastructure direction for shipping technical projects with cleaner interfaces, APIs, and deployment surfaces.
-
-Website: [andromedax.org](https://andromedax.org)
+AndromedaX is my web and infrastructure direction for shipping technical projects with cleaner interfaces, APIs, and deployment surfaces &nbsp;·&nbsp; [andromedax.org](https://andromedax.org)
 
 <details>
 
 <summary><strong>AndromedaX build notes</strong></summary>
+
+<br>
 
 | Use | Current focus |
 | :--- | :--- |
@@ -183,6 +173,8 @@ AI Engineering Workflow is a Commander / Implementor / Inspector workflow for us
 <details>
 
 <summary><strong>AI engineering workflow notes</strong></summary>
+
+<br>
 
 | Use | Current focus |
 | :--- | :--- |
@@ -209,7 +201,21 @@ sequenceDiagram
 
 ---
 
-## Research / Build Philosophy
+## How I Think Across Layers
+
+My work sits between machine learning, math, physics, trading systems, and full-stack infrastructure. At every layer I keep asking the same thing: what is the system *actually* doing, and how does it fail?
+
+| Layer | Question I keep asking | What can go wrong |
+| :--- | :--- | :--- |
+| **Math / Physics** | What mechanism explains the behavior? | Elegant theory, weak contact with reality |
+| **ML / DL** | Does the model generalize outside the setup? | Leakage, overfitting, noisy metrics |
+| **Quantitative systems** | Does the signal survive cost and regime shifts? | Paper alpha that disappears in execution |
+| **Web infrastructure** | Can this be run, inspected, and changed later? | Prototype code hardening into permanent debt |
+| **Interface / UI** | Does the interface reveal the system's real state? | Visual polish hiding real uncertainty |
+
+---
+
+## Research & Build Philosophy
 
 I am most interested in systems where correctness is not obvious from the first result.
 
@@ -235,21 +241,17 @@ So I try to build around a few principles:
 - Reproducibility before speed
 - Interfaces that show state, uncertainty, and trade-offs
 
----
+A good technical project should make it possible to ask:
 
-## Thinking Model
-
-| Layer | Question I keep asking | What can go wrong |
-| :--- | :--- | :--- |
-| **Math / Physics** | What mechanism explains the behavior? | Nice theory, weak contact with reality |
-| **ML / DL** | Does the model generalize outside the setup? | Leakage, overfitting, noisy metrics |
-| **Quant Systems** | Does the signal survive cost and regime shifts? | Paper alpha that disappears in execution |
-| **Infrastructure** | Can this be run, inspected, and changed later? | Prototype code turning into permanent debt |
-| **UI** | Does the interface reveal the system state clearly? | Visual polish hiding important uncertainty |
+> What exactly is the system doing? &nbsp;·&nbsp; What assumptions does it depend on? &nbsp;·&nbsp; What breaks when the environment changes? &nbsp;·&nbsp; Can the result be reproduced? &nbsp;·&nbsp; Can another person understand and improve it later?
 
 ---
 
-## Tools I Use
+## Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,ts,js,git,github,bash,cloudflare&theme=dark" alt="Python, PyTorch, TypeScript, JavaScript, Git, GitHub, Bash, Cloudflare" />
+</div>
 
 | Purpose | Tools |
 | :--- | :--- |
@@ -268,16 +270,16 @@ I prefer tools that make a system easier to inspect, reproduce, and repair.
 
 ---
 
-## Current Focus
+## Current Focus & Learning
+
+**Right now I am:**
 
 - Making CASI more deterministic, replayable, and honest about failure
 - Turning AndromedaX into a cleaner home for technical projects
 - Improving my ability to connect math, ML, and software into usable systems
 - Building projects that can become long-term research and portfolio assets
 
----
-
-## What I Am Learning
+**And actively learning:**
 
 | Area | Direction |
 | :--- | :--- |
@@ -290,28 +292,12 @@ I prefer tools that make a system easier to inspect, reproduce, and repair.
 
 ---
 
-## What I Care About
+## GitHub in Numbers
 
-I care less about whether a project looks finished at the surface and more about whether it can answer serious questions.
-
-For me, a good technical project should make it possible to ask:
-
-- What exactly is the system doing?
-- What assumptions does it depend on?
-- What breaks when the environment changes?
-- Can the result be reproduced?
-- Can another person understand and improve it later?
-
----
-
-## Selected Project Directions
-
-| Project | Area | Core Question |
-| :--- | :--- | :--- |
-| **CASI** | AI / Quant Research | Can weak ML signals survive realistic trading constraints? |
-| **AndromedaX** | Web / Infrastructure | Can technical projects be shipped with clean interfaces and deployable structure? |
-| **AI Engineering Workflow** | Developer Systems | Can AI agents help build software without losing state, scope, or verification? |
-| **Math / Physics Notes** | Theory / Learning | Can abstract mechanisms be turned into usable models and explanations? |
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JeremyLih&show_icons=true&count_private=true&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=94a3b8&bg_color=0d1117" alt="Jeremy Li's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JeremyLih&layout=compact&langs_count=8&hide_border=true&title_color=22d3ee&text_color=94a3b8&bg_color=0d1117" alt="Most used languages" />
+</div>
 
 ---
 
@@ -322,5 +308,9 @@ For me, a good technical project should make it possible to ask:
 | Email | [jeremyli.ava@gmail.com](mailto:jeremyli.ava@gmail.com) |
 | GitHub | [JeremyLih](https://github.com/JeremyLih) |
 | Website | [andromedax.org](https://andromedax.org) |
+
+<div align="center">
+  <sub>Built in small, inspectable loops &nbsp;·&nbsp; question → model → test → failure → revision</sub>
+</div>
 
 [^status]: Status labels describe current direction and working mode, not finished-product claims.
