@@ -18,8 +18,6 @@
 
 A student drawn to computer science, artificial intelligence, machine learning, and quantitative finance — and the mathematics and physics beneath them. My work spans research and engineering: running experiments, entering machine-learning competitions, shipping small systems, and helping revive and lead an AI club along the way.
 
----
-
 ## Selected Work
 
 | Project | What it is |
@@ -31,19 +29,17 @@ A student drawn to computer science, artificial intelligence, machine learning, 
 
 <sub><em>CASI and QMOS are experimental research and learning systems — not finished or profitable products.</em></sub>
 
----
-
 ## Tech Stack
 
 <div align="center">
 
-<p><code>&nbsp;Languages&nbsp;&nbsp;</code>&nbsp;&nbsp;
+<p><code>Languages</code>&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></p>
 
-<p><code>&nbsp;ML &amp; Data&nbsp;&nbsp;</code>&nbsp;&nbsp;
+<p><code>ML &amp; Data</code>&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
@@ -55,8 +51,6 @@ A student drawn to computer science, artificial intelligence, machine learning, 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /></p>
 
 </div>
-
----
 
 ## Currently Exploring
 
